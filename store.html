@@ -1,27 +1,45 @@
-
 <!DOCTYPE html>
-
 <html>
-
 	<head>
 
-		<title>SUS Fingerboarding</title>
+
+		<title></title>
+
 
 		<style >
 
-		div.fixed {
-    position: fixed;
-    bottom: 300;
-    right: 0;
-    width: 375px;
-    border: 3px solid red;
-    background-color: black;
+
+    select {
+    margin-left: 100px;
+    width: 50%;
+    padding: 16px 20px;
+    border: none;
+    border-radius: 4px;
+    background-color: #f1f1f1;
 }
 
 
-			body{ background-color: black; color: white;}
-			p{ margin-left: 60px; text-shadow: 3px 3px 3px white;
+			div.fixed {
+    			position: fixed;
+   				bottom: 300;
+    			right: 0;
+    			width: 375px;
+    			border: 3px solid red;
+          background-color: black;
+				}
+
+
+
+
+			body{ 
+				background-color: black; color: white;}
+
+
+			p{ 
+				margin-left: 60px; text-shadow: 3px 3px 3px white;
 				margin-right: 60px;}
+
+
 			a:link, a:visited {
     			background-color: white;
    	 			color: black;
@@ -29,32 +47,205 @@
     			text-align: center;
    				text-decoration: none;
     			display: inline-block;
-    			border: 2px solid red;
+    			border: 2px solid red;}
+
+
+
+
+			a:hover, a:active {
+   				background-color: red;}
+
+
+   			fdiv.img {
+   		 		margin: 5px;
+    			border: 1px solid #ccc;
+    			float: left;
+    			width: 180px;}
+
+
+			div.img:hover {
+    			border: 1px solid #777;}
+
+
+			div.img img {
+    			width: 100%;
+    			height: auto;}
+
+
+			div.desc {
+  				padding: 15px;
+    			text-align: center;}
+
+
+
+
+input[type=submit] {
+    width: 10%;
+    background-color: red;
+    color: white;
+    padding: 14px 20px;
+    margin-left: 100px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
 }
 
 
-a:hover, a:active {
+input[type=submit]:hover {
     background-color: red;
 }
 
+
+input[type=text], select {
+    width: 50%;
+    padding: 12px 20px;
+    margin-left: 100px;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+
 		</style>
+
 
 	</head>
 
-	<body>
 
-	<div class="fixed">
-		<a href="home.html" style="background-color: black; color: white; padding: 0px 0px; text-align: center;	border: 0px solid black;
+	<body style="margin-bottom: 100px;">
+
+
+
+
+
+
+		<div class="fixed">
+			<a href="home.html" style="background-color: black;	color: white; padding: 0px 0px; text-align: center;	border: 0px solid black;
             margin-left: 30px;">HOME</a>
-            <a href="gallery.html" style="background-color: black; color: white; padding: 0px 0px; text-align: center;	border: 0px solid black; margin-left: 65px;">GALLERY</a>
-            <a href= "store.html" style="background-color: black; color: white; padding: 0px 0px; text-align: center;	border: 0px solid black; margin-left: 70px;">STORE</a>
-    </div>
+            <a href="gallery.html" style="background-color: black;	color: white; padding: 0px 0px; text-align: center;	border: 0px solid black; margin-left: 65px;">GALLERY</a>
+            <a href="" style="background-color: black; color: white; padding: 0px 0px; text-align: center;	border: 0px solid black; margin-left: 70px;">STORE</a>
+  		  </div>
 
 
-	<img src = "images/logo-small-white.jpg" width = "370" height = "113" alt = "logo">
+
+
+		<img src = "images/logo-small-white.jpg" width = "370" height = "113" alt = "logo">
+
+
+    <p>Shirts ($40):</p>
+  
+   <img src = "images/white-shirt.png" width = "200" height = "200" alt = "white-shirt">
+
+
+    <img src = "images/gray-shirt.jpg" width = "200" height = "200" alt = "gray-shirt-shirt" style=" margin-left: 10px;">
+
+
+     <img src = "images/blue-raglan.jpg" width = "200" height = "200" alt = "blue-raglan" style="margin-left: 10px;">
+
+
+      <img src = "images/gray-raglan.jpg" width = "200" height = "200" alt = "gray-raglan" style=" margin-left: 10px;" >
+
+
+      <img src = "images/polo.jpg" width = "200" height = "200" alt = "polo" style=" margin-left: 10px;" >
+   
+     <p></p>
+
+
+     <p>Sweatshirts ($60):</p>
+
+
+      <img src = "images/gray-sweat.jpg" width = "200" height = "200" alt = "gray-sweat">
+
+
+       <img src = "images/black-sweat.jpg" width = "200" height = "200" alt = "black-sweat" style=" margin-left: 10px;" >
+
+
+       <img src = "images/gray-crew.jpg" width = "200" height = "200" alt = "gray-crew" style=" margin-left: 10px;" >
+
+
+     <p></p>
+
+
+     <p>Other:</p>
+
+
+      <img src = "images/white-hat.jpg" width = "200" height = "200" alt = "white-hat">
+
+
+      <img src = "images/orange-hat.jpg" width = "200" height = "200" alt = "orange-hat" style=" margin-left: 10px;">
+
+
+      <img src = "images/mug.jpg" width = "200" height = "200" alt = "mug" style=" margin-left: 10px;">
+
+
+      <img src = "images/blue-bag.jpg" width = "200" height = "200" alt = "blue-bag" style=" margin-left: 10px;">
+
+
+      <img src = "images/gray-bag.jpg" width = "200" height = "200" alt = "gray-bag" style=" margin-left: 10px;">
+
+
+      <p>To Order, Fill Out the Form below:</p>
+
+
+      <form action="mailto:susfingerboarding@gmail.com?Subject=Store" method="post" enctype="text/plain">
+       <input type="text" id="name" name="name" placeholder="Full Name">
+       <p></p>
+       <input type="text" id="email" name="email" placeholder="Your Email Address">
+
+
+       <p style="margin-left: 100px; ">Product:</p>
+
+
+  <select id="product" name="product">
+    <option value="white-shirt">White Shirt</option>
+    <option value="gray-shirt">Gray Shirt</option>
+    <option value="blue-raglan">Blue Raglan</option>
+    <option value="gray-raglan">Gray Raglan</option>
+    <option value="polo">Polo</option>
+    <option value="gray-sweat">Gray Sweatshirt</option>
+    <option value="gray-sweat">Black Sweatshirt</option>
+    <option value="gray-crew">Gray Crew Sweatshirt</option>
+    <option value="white-hat">White Hat</option>
+    <option value="orange-hat">Limited Edition Halloween Hat</option>
+    <option value="mug">Mug</option>
+    <option value="blue-bag">Blue Backpack</option>
+    <option value="gray-bag">Gray Backpack</option>
+  </select>
+
+
+  <p style="margin-left: 100px; ">Size: (Does not apply to products without size)</p>
+
+
+  <select id = "size" name = "size">
+    <option value="n/a">Not Applicable</option>
+    <option value="XS">Extra Small</option>
+    <option value="S">Small</option>
+    <option value="M">Medium</option>
+    <option value="Large">Large</option>
+    <option value="XL">Extra Large</option>
+    <option value="XXL">Extra Extra Large</option>
+  </select>
+  <p></p>
+
+
+  <input type="checkbox" name="sub" value="Subscribe" style="margin-left: 100px;"> I would like to be kept up to date with information about SUS products, special offers, competitions, and news.<br>
+
+
+  <p></p>
+
+
+  <input type="submit" value="Submit">
+
+
+</form>
+
+
 
 
 	</body>
-
 </html>
+
+
+
 
