@@ -18,12 +18,10 @@
 }
 
 			div.fixed {
-    			position: fixed;
-   				bottom: 300;
-    			right: 0;
-    			width: 375px;
-    			border: 3px solid red;
-          background-color: black;
+    		position: fixed;
+          right: 0;
+          margin-right: 100px;
+          margin-top: 30px;
 				}
 
 
@@ -35,17 +33,11 @@
 				margin-right: 60px;}
 
 			a:link, a:visited {
-    			background-color: white;
-   	 			color: black;
-   	 			padding: 7px 13px;
-    			text-align: center;
-   				text-decoration: none;
-    			display: inline-block;
-    			border: 2px solid red;}
+    			color: red;}
 
 
 			a:hover, a:active {
-   				background-color: red;}
+   				color: gray;}
 
    			fdiv.img {
    		 		margin: 5px;
@@ -63,6 +55,8 @@
 			div.desc {
   				padding: 15px;
     			text-align: center;}
+
+          div.stay{margin-top: 150px;}
 
 
 input[type=submit] {
@@ -90,27 +84,48 @@ input[type=text], select {
     box-sizing: border-box;
 }
 
+.header {
+    background-color: white;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+}
+
+.links {
+  background-color: white;
+          color: black;
+          padding: 7px 13px;
+          text-align: center;
+          text-decoration: none;
+          display: inline-block;
+          border: 2px solid red;
+}
+
 		</style>
 
 	</head>
 
 	<body style="margin-bottom: 100px;">
 
+   <div class = "header">
+  <img src = "images/logo-small-black.jpg" width = "340" height = "104" alt = "logo"></div>
 
+	<div class="fixed">
+      <a class = "links"  href="home.html">HOME</a>
+            <a class = "links" href="gallery.html" style = "margin-left: 65px;">GALLERY</a>
+            <a class = "links" href="store.html" style = "margin-left: 65px;">STORE</a>
+            <a class = "links" href="sponsors.html" style = "margin-left: 65px;">SPONSORS</a>
+        </div>
 
-		<div class="fixed">
-			<a href="home.html" style="background-color: black;	color: white; padding: 0px 0px; text-align: center;	border: 0px solid black;
-            margin-left: 30px;">HOME</a>
-            <a href="gallery.html" style="background-color: black;	color: white; padding: 0px 0px; text-align: center;	border: 0px solid black; margin-left: 65px;">GALLERY</a>
-            <a href="" style="background-color: black; color: white; padding: 0px 0px; text-align: center;	border: 0px solid black; margin-left: 70px;">STORE</a>
-  		  </div>
+         <div class="fixed" style="bottom: 0; margin-right: 0;">
+      <audio controls>          
+      <source src="sussong.mp3" type="audio/mpeg">
+        Your browser does not support the audio element.
+      </audio>
+        </div>
 
-
-		<a class="clear" href="home.html"><img src = "images/logo-small-white.jpg" width = "370" height = "113" alt = "logo"></a>
-
-    <p>Shirts ($40):</p>
-  
-   <img src = "images/white-shirt.png" width = "200" height = "200" alt = "white-shirt">
+   <img  style="margin-top: 150px;" src = "images/white-shirt.png" width = "200" height = "200" alt = "white-shirt">
 
     <img src = "images/gray-shirt.jpg" width = "200" height = "200" alt = "gray-shirt-shirt" style=" margin-left: 10px;">
 
@@ -122,7 +137,7 @@ input[type=text], select {
    
      <p></p>
 
-     <p>Sweatshirts ($60):</p>
+ <hr>
 
       <img src = "images/gray-sweat.jpg" width = "200" height = "200" alt = "gray-sweat">
 
@@ -132,7 +147,7 @@ input[type=text], select {
 
      <p></p>
 
-     <p>Other:</p>
+   <hr>
 
       <img src = "images/white-hat.jpg" width = "200" height = "200" alt = "white-hat">
 
@@ -194,7 +209,7 @@ input[type=text], select {
   </select>
   <p></p>
 
-   <input type="text" id="shoe-size" name="shoe-size" placeholder="Shoe Size (Not Applicable to Other Procucts)">
+   <input type="text" id="shoe-size" name="shoe-size" placeholder="Shoe Size (Not Applicable to Other Products)">
 
      <p></p>
 
@@ -205,6 +220,43 @@ input[type=text], select {
   <input type="submit" value="Submit">
 
 </form>
+
+<hr style="margin-top: 10px;">
+
+<table style="margin-left: 160px; margin-top: 10px;">
+  <tr>
+    <th>Product</th>
+    <th>Price</th>
+  </tr>
+  <tr>
+    <td>Shirt</td>
+    <td>$20</td>
+  </tr>
+  <tr>
+    <td>Sweatshirt</td>
+    <td>$40</td>
+  </tr>
+  <tr>
+    <td>Hat</td>
+    <td>$20</td>
+  </tr>
+   <tr>
+    <td>Shoes</td>
+    <td>$90</td>
+  </tr>
+   <tr>
+    <td>Bag</td>
+    <td>$80</td>
+  </tr>
+   <tr>
+    <td>Mug</td>
+    <td>$10</td>
+  </tr>
+   <tr>
+    <td>Selfie Stick</td>
+    <td>$20</td>
+  </tr>
+</table>
 
 
 	</body>
